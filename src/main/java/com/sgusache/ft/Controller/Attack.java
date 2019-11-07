@@ -23,26 +23,27 @@ public class Attack extends OffensiveAbility {
         this.hitEffect = new HitEffect(this);
         this.addEffect(this.hitEffect);
     }
-    public void attack()
+
+    public HitEffect getHitEffect() { return this.hitEffect; }
+    public void attack(String s)
     {
         Player.instance().setState("ATTACK");
         IAnimationController controller = Player.instance().getAnimationController();
-        Spritesheet jump = Resources.spritesheets().get("adven-attack-right");
+        Spritesheet jump = Resources.spritesheets().get(s);
         controller.add(new Animation(jump, false));
         Spritesheet rightAttackSprite;
         if (Player.instance().getFacingDirection() == Direction.LEFT) {
             BufferedImage rightJump = Imaging.flipSpritesHorizontally(jump);
-            rightAttackSprite = Resources.spritesheets().load(rightJump, "adven-attack-right", jump.getSpriteWidth(), jump.getSpriteHeight());
+            rightAttackSprite = Resources.spritesheets().load(rightJump, s, jump.getSpriteWidth(), jump.getSpriteHeight());
             controller.add(new Animation(rightAttackSprite, false));
-            Player.instance().getAnimationController().playAnimation("adven-attack-right");
+            Player.instance().getAnimationController().playAnimation(s);
         } else {
-            rightAttackSprite = Resources.spritesheets().load(jump.getImage(), "adven-attack-right", jump.getSpriteWidth(), jump.getSpriteHeight());
+            rightAttackSprite = Resources.spritesheets().load(jump.getImage(), s, jump.getSpriteWidth(), jump.getSpriteHeight());
             controller.add(new Animation(rightAttackSprite, false));
-            Player.instance().getAnimationController().playAnimation("adven-attack-right");
+            Player.instance().getAnimationController().playAnimation(s);
         }
         Player.instance().setState("IDLE");
     }
-    public HitEffect getHitEffect() { return this.hitEffect; }
 }
 
 /*

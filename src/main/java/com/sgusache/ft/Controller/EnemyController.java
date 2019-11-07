@@ -1,7 +1,6 @@
 package com.sgusache.ft.Controller;
 
 import com.sgusache.ft.Model.Player;
-import com.sgusache.ft.Model.Slime;
 import de.gurkenlabs.litiengine.Direction;
 import de.gurkenlabs.litiengine.Game;
 import de.gurkenlabs.litiengine.entities.Creature;
@@ -35,9 +34,10 @@ public class EnemyController implements IBehaviorController {
     @Override
     public void update() {
         if (this.enemy.isDead()) {
+
             return;
         }
-            int i = 0;
+        int i = 0;
         final long timeSinceDirectionChange = Game.time().since(this.directionChanged);
         if (timeSinceDirectionChange > this.nextDirectionChage) {
             direction = this.direction == Direction.LEFT ? Direction.RIGHT : Direction.LEFT;
@@ -51,12 +51,38 @@ public class EnemyController implements IBehaviorController {
 
     }
 
+    public void animation(String s)
+    {
+        IAnimationController controller = this.getEntity().getAnimationController();
+        Spritesheet die = Resources.spritesheets().get(s);
+        controller.add(new Animation(die, false));
+        Spritesheet rightDieSprite;
+        if (Player.instance().getFacingDirection() == Direction.RIGHT) {
+            BufferedImage dieRight = Imaging.flipSpritesHorizontally(die);
+            rightDieSprite = Resources.spritesheets().load(dieRight, s, die.getSpriteWidth(), die.getSpriteHeight());
+            controller.add(new Animation(rightDieSprite , false));
+            this.getEntity().getAnimationController().playAnimation(s);
+        } else {
+            rightDieSprite = Resources.spritesheets().load(die.getImage(), s, die.getSpriteWidth(), die.getSpriteHeight());
+            controller.add(new Animation(rightDieSprite , false));
+            this.getEntity().getAnimationController().playAnimation(s);
+        }
+    }
+
     public void isCollides(Player player, IEntity enemy)
     {
         if(player.getPlayerState() != "ATTACK")
-            return;
+        {
+            if(player.getCollisionBox().intersects(this.getEntity().getBoundingBox()))
+                Player.instance().animation("adven-hurt-right");
+        }
         if(player.getCollisionBox().intersects(this.getEntity().getBoundingBox()) && Player.instance().getPlayerState() == "ATTACK")
+        {
+            animation("slime-die-left");
+            Player.instance().incrementKillFirst();
+            this.getEntity().getAnimationController().detach();
             this.enemy.die();
+        }
     }
 }
 

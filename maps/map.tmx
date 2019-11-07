@@ -16,8 +16,13 @@
  <tileset firstgid="5010" source="file:/Users/sergeygusachenko/IdeaProjects/swingy/maps/map.tmx"/>
  <tileset firstgid="5014" source="file:/Users/sergeygusachenko/IdeaProjects/swingy/maps/map.tmx"/>
  <tileset firstgid="5020" source="file:/Users/sergeygusachenko/IdeaProjects/swingy/maps/map.tmx"/>
- <tileset firstgid="5025" source="file:/Users/sergeygusachenko/IdeaProjects/swingy/maps/map.tmx"/>
- <tileset firstgid="5029" source="file:/Users/sergeygusachenko/IdeaProjects/swingy/maps/map.tmx"/>
+ <tileset firstgid="5024" source="file:/Users/sergeygusachenko/IdeaProjects/swingy/maps/map.tmx"/>
+ <tileset firstgid="5031" source="file:/Users/sergeygusachenko/IdeaProjects/swingy/maps/map.tmx"/>
+ <tileset firstgid="5036" source="file:/Users/sergeygusachenko/IdeaProjects/swingy/maps/map.tmx"/>
+ <tileset firstgid="5042" source="file:/Users/sergeygusachenko/IdeaProjects/swingy/maps/map.tmx"/>
+ <tileset firstgid="5051" source="file:/Users/sergeygusachenko/IdeaProjects/swingy/maps/map.tmx"/>
+ <tileset firstgid="5057" source="file:/Users/sergeygusachenko/IdeaProjects/swingy/maps/map.tmx"/>
+ <tileset firstgid="5071" source="file:/Users/sergeygusachenko/IdeaProjects/swingy/maps/map.tmx"/>
  <objectgroup id="9" name="ground" opacity="0.99">
   <object id="21" x="54.6667" y="497.333" width="1.33333" height="0.666667">
    <ellipse/>
@@ -37,112 +42,33 @@
   <object id="36" x="1.33333" y="676.667" width="0" height="0">
    <polygon points="0,0 32,-20 34,-22.66670036315918 43.33330154418945,-32 60.66669845581055,-39.33330154418945 62.66669845581055,-46 69.33329772949219,-58.66669845581055 79.33329772949219,-68.66670227050781 102,-100.66699981689453 113.33300018310547,-108.66699981689453 109.33300018310547,-116.66699981689453 103.33300018310547,-118.66699981689453 117.33300018310547,-130 112.66699981689453,-142.66700744628906 119.33300018310547,-149.33299255371094 125.33300018310547,-160.66700744628906 129.33299255371094,-164 128.66700744628906,-173.33299255371094 128,-178.66700744628906 128.66700744628906,-189.33299255371094 130.66700744628906,-196.66700744628906 132.66700744628906,-203.33299255371094 132.66700744628906,-212 131.33299255371094,-218 130,-224.66700744628906 120.66699981689453,-233.33299255371094 114.66699981689453,-236 114,-238 111.33300018310547,-240 108.66699981689453,-247.33299255371094 104.66699981689453,-254.66700744628906 96,-253.33299255371094 72,-253.33299255371094 64.66670227050781,-254 58.66669845581055,-254.66700744628906 58,-255.33299255371094 51.33330154418945,-259.3330078125 50,-267.3330078125 45.33330154418945,-270.6669921875 33.33330154418945,-269.3330078125 22,-268.6669921875 10.66670036315918,-268.6669921875 8.666669845581055,-268.6669921875 6.666669845581055,-266.6669921875 5.333330154418945,-262 2,-256 1.3333300352096558,-255.33299255371094 -2.666670083999634,-252.66700744628906 -3.333329916000366,-252.66700744628906"/>
   </object>
-  <object id="37" type="COLLISIONBOX" x="0" y="408" width="48" height="224">
+  <object id="37" type="COLLISIONBOX" x="0" y="696" width="160" height="64">
    <properties>
     <property name="collisionType" value="STATIC"/>
    </properties>
   </object>
-  <object id="38" type="COLLISIONBOX" x="40" y="424" width="64" height="136">
+  <object id="38" type="COLLISIONBOX" x="152" y="696" width="32" height="64">
    <properties>
     <property name="collisionType" value="STATIC"/>
    </properties>
   </object>
-  <object id="39" type="COLLISIONBOX" x="80" y="432" width="32" height="152">
+  <object id="40" type="COLLISIONBOX" x="408" y="672" width="32" height="48">
    <properties>
     <property name="collisionType" value="STATIC"/>
    </properties>
   </object>
-  <object id="40" type="COLLISIONBOX" x="0" y="688" width="160" height="112">
+  <object id="42" type="CREATURE" x="208" y="680" width="24" height="24">
    <properties>
-    <property name="collisionType" value="STATIC"/>
-   </properties>
-  </object>
-  <object id="41" type="COLLISIONBOX" x="160" y="696" width="24" height="104">
-   <properties>
-    <property name="collisionType" value="STATIC"/>
-   </properties>
-  </object>
-  <object id="43" type="COLLISIONBOX" x="408" y="712" width="24" height="88">
-   <properties>
-    <property name="collisionType" value="STATIC"/>
-   </properties>
-  </object>
-  <object id="44" type="COLLISIONBOX" x="424" y="680" width="24" height="24">
-   <properties>
-    <property name="collisionType" value="STATIC"/>
-   </properties>
-  </object>
-  <object id="45" type="COLLISIONBOX" x="440" y="672" width="40" height="16">
-   <properties>
-    <property name="collisionType" value="STATIC"/>
-   </properties>
-  </object>
-  <object id="46" type="COLLISIONBOX" x="456" y="656" width="32" height="24">
-   <properties>
-    <property name="collisionType" value="STATIC"/>
-   </properties>
-  </object>
-  <object id="47" type="COLLISIONBOX" x="504" y="608" width="40" height="88">
-   <properties>
-    <property name="collisionType" value="STATIC"/>
-   </properties>
-  </object>
-  <object id="48" type="COLLISIONBOX" x="488" y="616" width="80" height="56">
-   <properties>
-    <property name="collisionType" value="STATIC"/>
-   </properties>
-  </object>
-  <object id="49" type="COLLISIONBOX" x="576" y="696" width="48" height="88">
-   <properties>
-    <property name="collisionType" value="STATIC"/>
-   </properties>
-  </object>
-  <object id="50" type="COLLISIONBOX" x="616" y="712" width="24" height="56">
-   <properties>
-    <property name="collisionType" value="STATIC"/>
-   </properties>
-  </object>
-  <object id="51" type="COLLISIONBOX" x="552" y="712" width="24" height="64">
-   <properties>
-    <property name="collisionType" value="STATIC"/>
-   </properties>
-  </object>
-  <object id="52" type="COLLISIONBOX" x="552" y="672" width="16" height="16">
-   <properties>
-    <property name="collisionType" value="STATIC"/>
-   </properties>
-  </object>
-  <object id="54" name="enter" type="SPAWNPOINT" x="64" y="656" width="56" height="32">
-   <properties>
-    <property name="spawnDirection" value="RIGHT"/>
-   </properties>
-  </object>
-  <object id="57" type="COLLISIONBOX" x="176" y="704" width="168" height="56">
-   <properties>
-    <property name="collisionType" value="STATIC"/>
-   </properties>
-  </object>
-  <object id="58" type="COLLISIONBOX" x="312" y="704" width="104" height="56">
-   <properties>
-    <property name="collisionType" value="STATIC"/>
-   </properties>
-  </object>
-  <object id="59" type="COLLISIONBOX" x="584" y="544" width="32" height="40">
-   <properties>
-    <property name="collisionType" value="STATIC"/>
-   </properties>
-  </object>
-  <object id="60" type="COLLISIONBOX" x="576" y="552" width="32" height="32">
-   <properties>
-    <property name="collisionType" value="STATIC"/>
-   </properties>
-  </object>
-  <object id="61" type="CREATURE" x="280" y="680" width="40" height="24">
-   <properties>
-    <property name="collisionboxWidth" value="10.0"/>
+    <property name="spawnDirection" value="LEFT"/>
     <property name="spritesheetName" value="slime"/>
    </properties>
   </object>
+  <object id="43" type="COLLISIONBOX" x="184" y="704" width="224" height="88">
+   <properties>
+    <property name="collisionType" value="STATIC"/>
+   </properties>
+  </object>
+  <object id="46" name="enter" type="SPAWNPOINT" x="72" y="648" width="56" height="40"/>
  </objectgroup>
  <layer id="1" name="Tile Layer 1" width="100" height="100">
   <data encoding="csv">

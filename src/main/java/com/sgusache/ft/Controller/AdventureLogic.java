@@ -24,15 +24,12 @@ public final class AdventureLogic {
 
         // add default game logic for when a level was loaded
         Game.world().addLoadedListener(e -> {
-
             // spawn the player instance on the spawn point with the name "enter"
             Spawnpoint enter = e.getSpawnpoint("enter");
             if (enter != null) {
                 enter.spawn(Player.instance());
             }
         });
-
         CreatureMapObjectLoader.registerCustomCreatureType(Slime.class);
-
     }
 }
