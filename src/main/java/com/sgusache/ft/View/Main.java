@@ -45,7 +45,7 @@ public class Main {
         // init the game infrastructure
         Game.init(args);
         // set the icon for the game (this has to be done after initialization because the ScreenManager will not be present otherwise)
-        Game.graphics().setBaseRenderScale(3.001f);
+        Game.graphics().setBaseRenderScale(2.701f);
         Game.window();
         // load data from the utiLITI game file
         Resources.load("game.litidata");

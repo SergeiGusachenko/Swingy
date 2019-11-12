@@ -45,28 +45,11 @@ public class MenuScreen extends Screen implements IUpdateable {
         this.mainMenu.onChange(c -> {
             this.renderInstructions = c == 1;
         });
-        this.playMenu.onChange(c -> {
-            this.renderInstructions = c == 1;
-        });
-        this.playMenu.setVisible(false);
         this.mainMenu.onConfirm(c -> {
             switch (c.intValue()) {
                 case 0:
                     this.mainMenu.suspend();
-                    this.playMenu.onConfirm(d ->{
-                        switch (c.intValue())
-                        {
-                            case 0:
-                                Player.instance().setName("adven");
-                                this.startGame();
-                                break;
-                            case 1:
-                                Player.instance().setName("knight");
-                                this.startGame();
-                                break;
-                        }
-                    });
-                    //this.startGame();
+                    this.startGame();
                     break;
                 case 1:
                     this.exit();

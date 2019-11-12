@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="741a00c2-81a5-4f77-a12c-18134aab5bcf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sgusache/ft/Model/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crash.txt" beforeDir="false" afterPath="$PROJECT_DIR$/crash.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game.litidata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/Adven-idle-right.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/maps/Adven-idle-right.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/Adven-jump-right.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/maps/Adven-jump-right.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/Adven-walk-right.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/maps/Adven-walk-right.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/adven-attack-right.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/maps/adven-attack-right.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/adven-attack2-right.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/maps/adven-attack2-right.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/adven-hurt-right.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/maps/adven-hurt-right.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/knight-attack-right.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/maps/knight-attack-right.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/knight-attack2-right.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/maps/knight-attack2-right.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/knight-die-right.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/maps/knight-die-right.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/knight-hurt-right.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/maps/knight-hurt-right.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/knight-idle-right.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/maps/knight-idle-right.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/knight-jump-right.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/maps/knight-jump-right.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/knight-walk-left.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/maps/knight-walk-left.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/map.tmx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/sky.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/maps/sky.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/slime-die-left.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/maps/slime-die-left.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/slime-hurt-left.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/maps/slime-hurt-left.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/slime-idle-left.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/maps/slime-idle-left.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/slime-walk-left.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/maps/slime-walk-left.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/adven-die-right.png" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/adven-die-right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/knight-walk-left.png" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/knight-walk-right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgusache/ft/Controller/AdventureLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sgusache/ft/Controller/AdventureLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgusache/ft/Controller/EnemyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sgusache/ft/Controller/EnemyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgusache/ft/Controller/Jump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sgusache/ft/Controller/Jump.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgusache/ft/Model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sgusache/ft/Model/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgusache/ft/Model/Slime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sgusache/ft/Model/Slime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgusache/ft/View/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sgusache/ft/View/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgusache/ft/View/screens/GameManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sgusache/ft/View/screens/GameManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgusache/ft/View/screens/MenuScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sgusache/ft/View/screens/MenuScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sw.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgusache/ft/Controller/AdventureLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgusache/ft/Controller/AdventureLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgusache/ft/Controller/EnemyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgusache/ft/Controller/EnemyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgusache/ft/Controller/Jump$JumpEffect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgusache/ft/Controller/Jump$JumpEffect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgusache/ft/Model/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgusache/ft/Model/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgusache/ft/Model/Slime.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgusache/ft/Model/Slime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgusache/ft/View/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgusache/ft/View/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgusache/ft/View/screens/GameManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgusache/ft/View/screens/GameManager.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1356616942">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="23" />
+          <entry key="java" value="26" />
+          <entry key="png" value="8" />
+          <entry key="properties" value="1" />
+          <entry key="tmx" value="3" />
+          <entry key="tsx" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="23" />
+          <entry key="Image" value="8" />
+          <entry key="JAVA" value="26" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Properties" value="1" />
+          <entry key="TypeScript JSX" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2409" />
+          <entry key="properties" value="19" />
+          <entry key="tsx" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2409" />
+          <entry key="Properties" value="19" />
+          <entry key="TypeScript JSX" value="11" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sgusache/ft/View/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sgusache/ft/Controller/EnemyController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="143" column="59" lean-forward="true" selection-start-line="143" selection-start-column="59" selection-end-line="143" selection-end-column="59" />
+              <folding>
+                <element signature="e#3803#3804#0" expanded="true" />
+                <element signature="e#3839#3840#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sgusache/ft/View/screens/MenuScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-79">
+              <caret line="46" column="11" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sgusache/ft/Model/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5">
+              <caret line="66" column="18" lean-forward="true" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+              <folding>
+                <element signature="e#4088#4089#0" expanded="true" />
+                <element signature="e#4130#4131#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sgusache/ft/Controller/AdventureLogic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sgusache/ft/View/screens/GameManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/de/gurkenlabs/litiengine/0.4.17/litiengine-0.4.17.jar!/de/gurkenlabs/litiengine/entities/CombatEntity.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="152" column="55" selection-start-line="152" selection-start-column="55" selection-end-line="152" selection-end-column="55" />
+              <folding>
+                <element signature="e#4839#4840#0" expanded="true" />
+                <element signature="e#4913#4914#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sprites/knight-attack-right.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sgusache/ft/Controller/Jump.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="535">
+              <caret line="69" column="34" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setName</find>
+      <find>getName</find>
+      <find>knight</find>
+      <find>applyForce</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Desktop/game" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../litiengine-ldjam44-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/swingy" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/maps/Adven-jump-right.tsx" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sgusache/ft/View/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sgusache/ft/View/screens/GameManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sgusache/ft/Controller/Jump.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sgusache/ft/Model/Slime.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sgusache/ft/Model/Knight.java" />
+        <option value="$PROJECT_DIR$/maps/knight-walk-left.tsx" />
+        <option value="$PROJECT_DIR$/maps/map.tmx" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sgusache/ft/Model/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sgusache/ft/Controller/EnemyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sgusache/ft/Controller/AdventureLogic.java" />
+        <option value="$PROJECT_DIR$/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sgusache/ft/View/screens/MenuScreen.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1429" />
+    <option name="height" value="1177" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swingy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swingy" type="462c0819:PsiDirectoryNode" />
+              <item name="maps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swingy" type="462c0819:PsiDirectoryNode" />
+              <item name="sprites" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swingy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swingy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swingy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swingy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ft" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swingy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ft" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swingy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ft" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swingy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ft" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swingy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ft" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573551719300" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/maps" />
+      <recent name="$PROJECT_DIR$/sprites" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sgusache.ft.View.Main" />
+      <module name="sw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sgusache.ft.View.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="741a00c2-81a5-4f77-a12c-18134aab5bcf" name="Default Changelist" comment="" />
+      <created>1573436079245</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573436079245</updated>
+      <workItem from="1573436080470" duration="1178000" />
+      <workItem from="1573504110489" duration="30000" />
+      <workItem from="1573504190855" duration="4000" />
+      <workItem from="1573504653346" duration="10108000" />
+      <workItem from="1573537548429" duration="222000" />
+      <workItem from="1573539482892" duration="251000" />
+      <workItem from="1573543338960" duration="5526000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17319000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1429" height="1177" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2710887" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33709982" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3992467" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32956687" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sprites/Adven-jump-right.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maps/Adven-jump-right.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maps/knight-idle-right.tsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/gurkenlabs/litiengine/0.4.17/litiengine-0.4.17.jar!/de/gurkenlabs/litiengine/abilities/effects/Effect.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgusache/ft/View/screens/GameOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgusache/ft/View/screens/IngameScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgusache/ft/View/screens/KeyboardMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgusache/ft/Controller/Attack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgusache/ft/Model/Adven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/gurkenlabs/litiengine/0.4.17/litiengine-0.4.17.jar!/de/gurkenlabs/litiengine/environment/CreatureMapObjectLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/gurkenlabs/litiengine/0.4.17/litiengine-0.4.17.jar!/de/gurkenlabs/litiengine/annotation/EntityInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgusache/ft/Controller/HitEffect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/gurkenlabs/litiengine/0.4.17/litiengine-0.4.17.jar!/de/gurkenlabs/litiengine/entities/EntityAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/gurkenlabs/litiengine/0.4.17/litiengine-0.4.17.jar!/de/gurkenlabs/litiengine/entities/EntityActionMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/gurkenlabs/litiengine/0.4.17/litiengine-0.4.17.jar!/de/gurkenlabs/litiengine/entities/Entity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="226" column="20" selection-start-line="226" selection-start-column="20" selection-end-line="226" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/gurkenlabs/litiengine/0.4.17/litiengine-0.4.17.jar!/de/gurkenlabs/litiengine/physics/PhysicsEngine.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="255" column="40" lean-forward="true" selection-start-line="255" selection-start-column="40" selection-end-line="255" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgusache/ft/Controller/AttackEmitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/gurkenlabs/litiengine/0.4.17/litiengine-0.4.17.jar!/de/gurkenlabs/litiengine/annotation/AnimationInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/gurkenlabs/litiengine/0.4.17/litiengine-0.4.17.jar!/de/gurkenlabs/litiengine/Game.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="115" column="32" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/gurkenlabs/litiengine/0.4.17/litiengine-0.4.17.jar!/de/gurkenlabs/litiengine/entities/IEntity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/gurkenlabs/litiengine/0.4.17/litiengine-0.4.17.jar!/de/gurkenlabs/litiengine/Direction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprites/slime-die-left.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/gurkenlabs/litiengine/0.4.17/litiengine-0.4.17.jar!/de/gurkenlabs/litiengine/entities/Creature.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="98" column="50" selection-start-line="98" selection-start-column="50" selection-end-line="98" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgusache/ft/Controller/ScreenShakeEffect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgusache/ft/Model/Slime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgusache/ft/Model/Knight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprites/knight-walk-right.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprites/knight-attack2-right.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maps/knight-walk-left.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprites/knight-die-right.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgusache/ft/Controller/Jump.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="69" column="34" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprites/knight-attack-right.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/gurkenlabs/litiengine/0.4.17/litiengine-0.4.17.jar!/de/gurkenlabs/litiengine/entities/CombatEntity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="152" column="55" selection-start-line="152" selection-start-column="55" selection-end-line="152" selection-end-column="55" />
+          <folding>
+            <element signature="e#4839#4840#0" expanded="true" />
+            <element signature="e#4913#4914#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maps/adven-die-right.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprites/adven-die-right.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgusache/ft/View/screens/GameManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgusache/ft/Model/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="66" column="18" lean-forward="true" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+          <folding>
+            <element signature="e#4088#4089#0" expanded="true" />
+            <element signature="e#4130#4131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maps/map.tmx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgusache/ft/Controller/EnemyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="143" column="59" lean-forward="true" selection-start-line="143" selection-start-column="59" selection-end-line="143" selection-end-column="59" />
+          <folding>
+            <element signature="e#3803#3804#0" expanded="true" />
+            <element signature="e#3839#3840#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgusache/ft/Controller/AdventureLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgusache/ft/View/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgusache/ft/View/screens/MenuScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-79">
+          <caret line="46" column="11" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

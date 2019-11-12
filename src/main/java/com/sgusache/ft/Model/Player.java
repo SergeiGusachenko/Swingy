@@ -65,7 +65,7 @@ public class Player extends Creature implements IUpdateable {
         movementController.addRightKey(KeyEvent.VK_RIGHT);
 
         /// Attack
-            Input.keyboard().onKeyPressed(KeyEvent.VK_N, e -> this.attack("adven-attack-right"));
+            Input.keyboard().onKeyPressed(KeyEvent.VK_N, e -> this.attack("Adven-attack-right"));
             Input.keyboard().onKeyPressed(KeyEvent.VK_M, e -> this.attack("adven-attack2-right"));
     }
 
@@ -81,6 +81,13 @@ public class Player extends Creature implements IUpdateable {
     public String getPlayerState()
     {
         return this.playerState;
+    }
+
+    @Override
+    public void die() {
+
+        super.die();
+
     }
 
     @Override
@@ -154,7 +161,7 @@ public class Player extends Creature implements IUpdateable {
         }
         Rectangle2D b =instance.getBoundingBox().getBounds2D();
         //c) if touch die collision boxd
-        if(b.getMinX()>= 632 && b.getMinX()<= 784 && b.getMinY()>= 721 && b.getMinY() <= 734)
+        if(b.getMinX()>= 232 && b.getMinX()<= 1984 && b.getMinY()>= 721 && b.getMinY() <= 734)
         {
             Camera cam = new Camera();
             cam.setFocus(Game.world().environment().getCenter());

@@ -1,3 +1,7 @@
 main threw an exception:
 java.lang.NullPointerException
-	at com.sgusache.ft.View.Main.main(Main.java:59)
+	at de.gurkenlabs.litiengine.gui.GuiComponent.prepare(GuiComponent.java:679)
+	at com.sgusache.ft.View.screens.MenuScreen.prepare(MenuScreen.java:67)
+	at de.gurkenlabs.litiengine.gui.screens.ScreenManager.display(ScreenManager.java:67)
+	at de.gurkenlabs.litiengine.gui.screens.ScreenManager.add(ScreenManager.java:48)
+	at com.sgusache.ft.View.Main.main(Main.java:55)

@@ -43,7 +43,7 @@ public final class GameManager {
 
         startups.put("map", () -> {
 
-            Game.graphics().setBaseRenderScale(3.001f);
+            Game.graphics().setBaseRenderScale(2.501f);
             Camera camera = new PositionLockCamera(Player.instance());
             camera.setClampToMap(true);
             Game.world().setCamera(camera);

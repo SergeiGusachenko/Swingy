@@ -1,5 +1,6 @@
 package com.sgusache.ft.Controller;
 
+import com.sgusache.ft.Model.Knight;
 import com.sgusache.ft.Model.Player;
 import com.sgusache.ft.Model.Slime;
 import de.gurkenlabs.litiengine.Game;
@@ -31,5 +32,6 @@ public final class AdventureLogic {
             }
         });
         CreatureMapObjectLoader.registerCustomCreatureType(Slime.class);
+        CreatureMapObjectLoader.registerCustomCreatureType(Knight.class);
     }
 }

@@ -42,7 +42,7 @@ public class Jump extends Ability {
         @Override
         protected Force applyForce(IMobileEntity affectedEntity) {
             // create a new force and apply it to the player
-            GravityForce force = new GravityForce(affectedEntity, this.getStrength(), Direction.UP);
+            GravityForce force = new GravityForce(affectedEntity, 280, Direction.UP);
             affectedEntity.getMovementController().apply(force);
             return force;
         }
