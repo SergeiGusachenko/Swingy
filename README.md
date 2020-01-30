@@ -5,6 +5,8 @@
 
 **Description**
 This is the second project from the Java world at 42. GUI application with https://litiengine.com Java Game Engine, in order to create an RPG game.
+### Preview ###
+![Alt Text](https://github.com/SergeiGusachenko/Swingy/blob/master/SwingyAdventure.gif?raw=true)
 
 ### Architecture
 
